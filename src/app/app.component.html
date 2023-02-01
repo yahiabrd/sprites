@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://pixijs.download/release/pixi.min.js"></script>
+  </head>
+  <body>
+    <div id="game">
+      <p id="image" (mouseover)="animateScript()" (mouseleave)="stopAnimation()"></p>
+      <button (click)="speed = true; speedRun()">Fast running</button>
+      <button (click)="speed = false; speedRun()">Slow running</button>
+      <hr>
+
+      <p id="image2"></p>
+      <button (click)="reverseRun()">Reverse running</button>
+      <hr>
+    </div>
+  </body>
+</html>

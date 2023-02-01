@@ -1,0 +1,14 @@
+#image {
+    height: 119px;
+    width: 121px;
+    background: 
+    url('/assets/sprite.png') 0px 0px;
+}
+
+#image2 {
+    height: 119px;
+    width: 121px;
+    background: 
+    url('/assets/sprite.png') 0px 0px;
+    transform: scaleX(-1);
+}
